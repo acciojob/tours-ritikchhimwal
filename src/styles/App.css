@@ -1,3 +1,7 @@
+body {
+    background-color: aliceblue;
+}
+
 h1 {
     color: #27aedb;
     text-align: center;
@@ -9,4 +13,27 @@ button{
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+.tours-data {
+    width: 90%;
+    margin: auto;
+}
+
+.tour-item {
+    background-color:cadetblue;
+    padding: 10px;
+}
+
+.tour-item + .tour-item {
+    margin-top: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.empty-list-indicator {
+    text-align: center;
 }
